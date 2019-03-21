@@ -19,16 +19,16 @@ $ tar -zxvf Swift.tar.gz
 $ rm -rf Swift.tar.gz
 ```
 ### 4. Add path to .bashrc or .zshrc
- export PATH="~/Swift/usr/bin:$PATH"
+  export PATH="~/Swift/usr/bin:$PATH"
  
 ### Create a file
 ```bash
 $ touch helloWorld.swift
 ```
-### Open file in text editor
- let name = "FirstName LastName"
+### Open file in text editor and type
+  let name = "FirstName LastName"
  
- print("Hello \(name)!\nWelcome To Swift World!")
+  print("Hello \(name)!\nWelcome To Swift World!")
 
 ### To run:
 ```bash
