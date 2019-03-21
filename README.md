@@ -10,8 +10,7 @@
 ```bash
 $ sudo apt install clang libicu-dev
 ```
-### 2. Download [Swift 4.2.3](https://swift.org/builds/swift-4.2.3-release/ubuntu1804/swift-4.2.3-RELEASE/swift-4.2.3-RELEASE-ubuntu18.04.tar.gz)
-### or find latest bin [here](https://swift.org/download/#releases)
+### 2. Download [Swift 4.2.3](https://swift.org/builds/swift-4.2.3-release/ubuntu1804/swift-4.2.3-RELEASE/swift-4.2.3-RELEASE-ubuntu18.04.tar.gz) or find latest bin [here](https://swift.org/download/#releases)
 
 ### 3. Follow these commands:
 ```bash
@@ -28,6 +27,7 @@ $ touch helloWorld.swift
 ```
 ### Open file in text editor
  let name = "FirstName LastName"
+ 
  print("Hello \(name)!\nWelcome To Swift World!")
 
 ### To run:
