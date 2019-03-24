@@ -26,10 +26,10 @@ $ rm -rf Swift.tar.gz
 $ touch helloWorld.swift
 ```
 ### Open file in text editor and type
-  let name = "FirstName LastName"
- 
-  print("Hello \(name)!\nWelcome To Swift World!")
-
+  ```text
+  1 let name = "FirstName LastName"
+  2 print("Hello \(name)!\nWelcome To Swift World!")
+  ```
 ### To run:
 ```bash
 $ swift helloWorld.swift
