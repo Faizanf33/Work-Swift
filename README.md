@@ -14,12 +14,12 @@ $ sudo apt install clang libicu-dev
 
 ### 3. Follow these commands:
 ```bash
-$ mv swift-4.2.3-RELEASE-ubuntu18.04.tar.gzip ~/Swift.tar.gz && cd ~
-$ tar -zxvf Swift.tar.gz
-$ rm -rf Swift.tar.gz
+$ mv swift-4.2.3-RELEASE-ubuntu18.04.tar.gzip ~/.swift.tar.gz && cd ~
+$ tar -zxvf .swift.tar.gz
+$ rm -rf .swift.tar.gz
 ```
 ### 4. Add path to .bashrc or .zshrc
-  export PATH="~/Swift/usr/bin:$PATH"
+> export PATH="~/.swift/usr/bin:$PATH"
  
 ### Create a file
 ```bash
