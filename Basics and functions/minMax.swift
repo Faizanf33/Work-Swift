@@ -1,6 +1,6 @@
 func minMax(_ arr: [Int]) -> (min: Int, max: Int){
-	var currMin = arr[0]
-	var currMax = arr[0]
+	var currMin = arr[0], currMax = arr[0]
+	
 	for val in arr[1..<arr.count]{
 		if (val < currMin){
 			currMin = val

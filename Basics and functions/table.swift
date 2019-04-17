@@ -1,10 +1,22 @@
-func printTableOf(_ t: Int, _ times: Int) {
-	if (times > 1) {
-		printTableOf(t , times - 1)
+func table(of : Int, upto: Int) {
+	for i in 1...upto {
+		print("\(of) x \(i) = \(of * i)")
 	}
-		
-	print("\(t) x \(times) = \(t*times)")
+
 	return
 }
 
-printTableOf(4, 10)
+table(of: 4, upto: 10)
+print("\n")
+
+func table(_ of : Int, _ upto: Int) {
+	if (upto > 1) {
+		table(of , upto - 1)
+	}
+
+	print("\(of) x \(upto) = \(of * upto)")
+
+	return
+}
+
+table(4, 10)
