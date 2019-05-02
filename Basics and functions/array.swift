@@ -18,7 +18,7 @@ let removedName = fullNames.remove(at: 2)
 
 print("Name: \(fullNames) \(removedName)")
 
-fullNames.remove(at: 2)
+//fullNames.remove(at: 2)
 //
 // print(fullNames)
 
