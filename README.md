@@ -1,7 +1,6 @@
 # Swift for iOS
 - Introduction to Swift
-- [Learn](https://slides.com/faizanf33/swift) basics of Swift
-
+- Learn __basics of Swift__ [here](https://slides.com/faizanf33/swift) 
 ## How to run on linux:
 ## Requirements:
 - __clang__
