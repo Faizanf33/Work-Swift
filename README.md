@@ -1,5 +1,6 @@
 # Swift for iOS
 - Introduction to Swift
+- [Learn](https://slides.com/faizanf33/swift) basics of Swift
 
 ## How to run on linux:
 ## Requirements:
