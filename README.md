@@ -19,7 +19,7 @@ $ tar -zxvf .swift.tar.gz
 $ rm -rf .swift.tar.gz
 ```
 ### 4. Add path to .bashrc or .zshrc
-> export PATH="~/.swift/usr/bin:$PATH"
+> export PATH=$PATH:~/.swift/usr/bin
  
 ### Create a file
 ```bash
