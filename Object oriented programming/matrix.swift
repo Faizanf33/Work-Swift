@@ -28,3 +28,4 @@ matrix[1, 0] = 2.2
 
 print(matrix.grid)
 print(matrix[0, 1])
+print(matrix)
